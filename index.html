@@ -1,0 +1,469 @@
+<!-- This code was written by Amira Shiha for GIT 417-->
+<!DOCTYPE html>
+
+<!-- Declaring document language -->
+<html lang="en">
+
+<!-- HTML meta tags to run the website properly: character encoding, viewport, browser compatibility, SEO, author & description) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="RAYE is a london singer-songwriter that is beloved by many UK fans and continues to chart globally. Check out some merch, shop, and stream her music online!">
+    <meta name="author" content="Amira Shiha">
+
+    <meta name="keywords" content="RAYE, london, merch, music, stream, shop">
+    <meta name="robots" content="index, follow">
+
+    <!-- A link to the CSS styles sheet -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <!-- Website Title -->
+    <title>Raye | Official Store</title>
+</head>
+
+<!-- HTML content will reflect accessibility and responsive practices -->
+<body>
+    <!-- Skip to content link -->
+    <a href="#story" class="skip-link">Skip to main content</a>
+
+    <!-- Header Content / Landing Page -->
+    <header>
+        <div class="header-container">    
+        
+            <div class="header-logo">
+                <a href="#home"><img src="images/rayelogo2.png" alt="Logo" class="logo-dark"></a>
+                <a href="#home"><img src="images/rayelogo.png" alt="Logo" class="logo-light"></a>
+            </div>
+
+            <!-- Navigation Content-->
+            <nav class="items">
+                <ul>
+                    <li class="item"><a href="#home">Home</a></li>
+                    <li class="item"><a href="#story">Story</a></li>
+                    <li class="item"><a href="#shop">Shop</a></li>
+                    <li class="item"><a href="#stream">Stream</a></li>
+                    <li class="item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="home"> <!-- This is the landing page / home section for the website. -->
+            <div class="title-wrap">
+                <h1 class="title">Raye</h1>
+                <p class="tagline">A perfect storm is brewing</p>
+            </div>
+            
+            <div class="video-bg">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/raye_hero.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <button class="mode-toggle" id="modeToggle" aria-label="Toggle light mode">
+                <svg class="mode-toggle-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <rect x="9" y="1" width="6" height="10" rx="3"/>
+                    <line x1="9" y1="5" x2="15" y2="5" stroke="currentColor" stroke-width="0.6" fill="none" opacity="0.5"/>
+                    <line x1="9" y1="7" x2="15" y2="7" stroke="currentColor" stroke-width="0.6" fill="none" opacity="0.5"/>
+                    <line x1="9" y1="9" x2="15" y2="9" stroke="currentColor" stroke-width="0.6" fill="none" opacity="0.5"/>
+                    <rect x="10.5" y="11" width="3" height="5" rx="0.5"/>
+                    <path d="M7 11 Q5 13 5 16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <path d="M17 11 Q19 13 19 16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <path d="M12 16 Q12 19 12 21" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    <line x1="9" y1="21" x2="15" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="mode-toggle-label">Light Mode</span>
+            </button>
+
+            <div class="stream-wrap">
+                <a class="stream" href="#stream">Stream Now</a>
+            </div>
+
+            <!-- All <div> content here is used for styling purposes only. -->
+            <div class="background-container">
+                <div class="bg-lines"></div> <!-- Background effects to create a full, finished look. -->
+                <div class="bg-title"></div> <!-- Title effect for enhanced typography design. -->
+                <div class="scanlines"></div> <!-- Lines for a subtle, textured grid look. -->
+                <div class="spotlight"></div> <!-- Spotlight for a glowing, rich look. -->
+                <div class="floorglow"></div> <!-- Floor glow for a glowing, rich look. -->
+            </div>
+
+            <!-- Corner design is included for final polish to background container. -->
+            <div class="corner-container">
+                <div class="corner corner-tl"></div> 
+                <div class="corner corner-tr"></div>
+                <div class="corner corner-bl"></div>
+                <div class="corner corner-br"></div>
+            </div>
+        </section>
+
+        <section id="story"> <!-- Story (the about section) of the artist. -->
+            <div class="story-background">
+                <div class="story-center">
+                    <p class="story-tagline">Behind The Storm</p>
+                    <h2 class="story-heading" id="story-heading">Raye's Story</h2>
+                    
+                <div class="story-description"> <!-- Artist Description -->
+                    <p>RAYE, also known as Rachel Keen, is a singer-songwriter from South London who strongly refused to be silenced. She regained control after years of writing for the most prominent singers in the world while her own voice went unnoticed.</p>
+                    <p>Her debut album <em>My 21st Century Blues</em> would pave the way for her current success. Now, Raye continues to chart as a number one artist in the UK.</p>
+                </div>
+
+                <div class="story-stats" role="list" aria-label="Key milestones"> <!-- Stats -->
+                    <div class="stat" role="listitem" tabindex="0">
+                        <div class="stat-num" data-target="7">7<span>+</span></div>
+                        <div class="stat-label">BRIT Nominations</div>
+                    </div>
+
+                    <div class="stat" role="listitem" tabindex="0">
+                        <div class="stat-num" data-target="1">1<span>B+</span></div>
+                        <div class="stat-label">Streams Worldwide</div>
+                    </div>
+
+                    <div class="stat" role="listitem" tabindex="0">
+                        <div class="stat-num" data-target="6">6<span>+</span></div>
+                        <div class="stat-label">Years in the Making</div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="story-image"> <!-- Image of Raye -->
+                    <img class="img-dark" src="images/rayelanding.png" alt="Raye wearing a bright red sparkling dress"> <!-- Image edited by Amira, taken from https://www.gettyimages.com/search/2/image?phrase=raye&tracked_gsrp_landing=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fraye -->
+                    <img class="img-light" src="images/rayelanding2.png" alt="Raye in light mode"> <!-- Image edited by Amira, taken from https://www.gettyimages.com/search/2/image?phrase=raye&tracked_gsrp_landing=https%3A%2F%2Fwww.gettyimages.com%2Fphotos%2Fraye -->
+                </div>
+            </div>
+        </section>
+
+        <section id="shop"> <!-- Shop section -->
+            <div class="shop-background">
+
+            <div class="shop-header">
+                <p class="shop-tagline">Limited Drops</p>
+                <h2 class="shop-heading">Quick Order</h2>
+            </div>
+
+            <div class="shop-grid" role="list" aria-label="Products"> <!-- Product Controls / Display -->
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/vinyl.jpg" alt="My 21st Century Blues Vinyl"> <!-- Image credit: https://www.amazon.com/My-21st-Century-Blues-RAYE/dp/B0BJ2TSHPH-->
+                        <div class="product-img-overlay"></div>
+                    </div>
+                        <div class="product-info">
+                        <h3 class="product-name">21st Century Blues Vinyl</h3>
+                        <p class="product-price">$29.99</p>
+                    </div>
+                    <div class="product-controls">
+                        <button class="qty-btn minus" aria-label="Remove one">-</button>
+                        <span class="qty-display" aria-live="polite">0</span>
+                        <button class="qty-btn plus" aria-label="Add one">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card"> <!-- Product Card for User Purchasing -->
+                    <div class="product-img">
+                        <img src="images/tee.jpg" alt="RAYE Tour Tee"> <!-- Image credit: https://usshop.rayeofficial.com/products/m21cb-album-tour-t-shirt?srsltid=AfmBOoqu5diHFXpOirlLSHLUJwOnT7fLrNryRYsI0AMopDvt08tYzCCg-->
+                        <div class="product-img-overlay"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">RAYE Tour Tee</h3>
+                        <p class="product-price">$34.99</p>
+                    </div>
+                    <div class="product-controls">
+                        <button class="qty-btn minus" aria-label="Remove one">-</button>
+                        <span class="qty-display" aria-live="polite">0</span>
+                        <button class="qty-btn plus" aria-label="Add one">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/poster.jpg" alt="Signed Poster"> <!-- Image credit: https://www.facebook.com/raye/posts/it-feels-so-good-to-be-your-cover-girl-thepopmag-thank-you-for-this-opportunity-/1043625183790335/-->
+                        <div class="product-img-overlay"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Signed Poster</h3>
+                        <p class="product-price">$19.99</p>
+                    </div>
+                    <div class="product-controls">
+                        <button class="qty-btn minus" aria-label="Remove one">-</button>
+                        <span class="qty-display" aria-live="polite">0</span>
+                        <button class="qty-btn plus" aria-label="Add one">+</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-img">
+                        <img src="images/hoodie.jpg" alt="Hoodie"> <!-- Image credit: https://www.etsy.com/listing/4463850548/raye-logo-premium-unisex-hoodie-music?ls=s&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=raye+hoodie&ref=sr_gallery-1-1&sr_prefetch=0&pf_from=market&pro=1&frs=1&content_source=7c90fd1f-65de-4358-a3b3-599d4c24712c%253ALTc5d242b8468bf071b8f9e495adce6bfe4b5bb978&organic_search_click=1&logging_key=7c90fd1f-65de-4358-a3b3-599d4c24712c%3ALTc5d242b8468bf071b8f9e495adce6bfe4b5bb978-->
+                        <div class="product-img-overlay"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Storm Hoodie</h3>
+                        <p class="product-price">$59.99</p>
+                    </div>
+                    <div class="product-controls">
+                        <button class="qty-btn minus" aria-label="Remove one">-</button>
+                        <span class="qty-display" aria-live="polite">0</span>
+                        <button class="qty-btn plus" aria-label="Add one">+</button>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="shop-summary" aria-label="Order summary"> <!-- Order Summary Section -->
+
+                <ul class="cart-items" id="cartItems">
+                    <li class="cart-empty">No items added yet.</li>
+                </ul>
+
+                <h3 class="summary-heading">Order Summary</h3>
+                <div class="summary-lines">
+                    <div class="summary-line">
+                        <span class="summary-line-label">Subtotal</span>
+                        <span class="summary-line-value" id="subtotal">$0.00</span>
+                    </div>
+                    <div class="summary-line">
+                        <span class="summary-line-label">Tax <span class="summary-rate">(8%)</span></span>
+                        <span class="summary-line-value" id="tax">$0.00</span>
+                    </div>
+                    <div class="summary-line">
+                        <span class="summary-line-label">Shipping</span>
+                        <span class="summary-line-value" id="shipping">$0.00</span>
+                    </div>
+                        <div class="summary-divider"></div>
+                        <div class="summary-line summary-line--total">
+                            <span class="summary-line-label">Total</span>
+                            <span class="summary-line-value" id="total">$0.00</span>
+                        </div>
+                    </div>
+
+                    <p class="summary-message" id="summaryMessage" aria-live="polite"></p> <!-- Summary Message (Checkout)-->
+                    <button class="checkout-btn" id="checkoutBtn">Checkout</button>
+                    <p class="summary-note">Free shipping on orders over $75</p>
+            </aside>
+            </div>
+        </section>
+
+        <section id="stream"> <!-- Stream Section -->
+            <div class="stream-background">
+
+                <div class="stream-vinyl-col"> <!-- Vinyl Design -->
+                    <div class="vinyl-wrap">
+                        <div class="vinyl" id="vinyl">
+                            <div class="vinyl-grooves"></div>
+                            <div class="vinyl-label">
+                                <a href="https://open.spotify.com/artist/5KKpBU5eC2tJDzf0wmlRp2" target="_blank"><img src="images/vinyl-2.webp" alt="My 21st Century Blues Album by Raye" class="vinyl-label-img"></a> <!-- Image credit: https://raye.fandom.com/wiki/My_21st_Century_Blues_(album)-->
+                                <div class="vinyl-label-overlay"></div>
+                                <div class="vinyl-spindle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stream-info-col"> <!-- Header Section -->
+                    <div class="stream-text">
+                        <p class="stream-tagline">Now Playing</p>
+                        <h2 class="stream-heading">Stream<br>Raye</h2>
+                        <p class="stream-desc">Listen to <em>My 21st Century Blues</em> and the latest release <em>This Music May Contain Hope</em> on your favourite platform.</p>
+                    </div>
+
+                    <nav class="stream-links" aria-label="Streaming platforms"> <!-- Stream Links (Takes user to Raye profiles)-->
+
+                        <a class="stream-link" href="https://open.spotify.com/artist/5KKpBU5eC2tJDzf0wmlRp2" target="_blank" rel="noopener" aria-label="Listen on Spotify">
+                            <span class="stream-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                                </svg>
+                            </span>
+                            <span class="stream-link-text">
+                                <span class="stream-link-label">Spotify</span>
+                                <span class="stream-link-sub">Stream Now</span>
+                            </span>
+                            <span class="stream-link-arrow">→</span>
+                        </a>
+
+                        <a class="stream-link" href="https://music.apple.com/us/artist/raye/261686" target="_blank" rel="noopener" aria-label="Listen on Apple Music">
+                            <span class="stream-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 0 0-1.877-.726 10.496 10.496 0 0 0-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026C4.786.07 4.043.15 3.34.428 2.004.958 1.04 1.88.475 3.208A4.86 4.86 0 0 0 .09 4.8c-.05.367-.09.735-.09 1.105C0 6.05 0 6.19 0 6.33v11.34c0 .14 0 .28.003.42.01.734.1 1.46.38 2.163.54 1.324 1.494 2.24 2.83 2.775.618.244 1.264.35 1.926.394.185.013.37.02.556.025.125.004.25.004.375.004H17.93c.14 0 .28 0 .42-.004.735-.01 1.46-.1 2.16-.38 1.325-.54 2.24-1.493 2.776-2.83.244-.617.35-1.263.394-1.924.013-.185.02-.37.025-.555.004-.125.004-.25.004-.375V6.16c0-.013-.001-.024-.003-.036zm-6.549 5.52v5.596a2.41 2.41 0 0 1-.068.56 1.54 1.54 0 0 1-1.24 1.17 2.566 2.566 0 0 1-.504.048c-.84 0-1.548-.588-1.587-1.395-.044-.906.558-1.56 1.437-1.68.318-.044.648-.064.98-.1V9.62l-4.897 1.07v6.31a2.6 2.6 0 0 1-.067.56 1.54 1.54 0 0 1-1.252 1.167 2.52 2.52 0 0 1-.5.048c-.842 0-1.55-.585-1.59-1.39-.044-.903.556-1.56 1.435-1.678.317-.044.648-.064.977-.1V8.24c0-.307.19-.578.482-.65l5.65-1.236c.39-.086.74.217.74.617v4.673z"/>
+                                </svg>
+                            </span>
+                            <span class="stream-link-text">
+                                <span class="stream-link-label">Apple Music</span>
+                                <span class="stream-link-sub">Stream Now</span>
+                            </span>
+                            <span class="stream-link-arrow">→</span>
+                        </a>
+
+                        <a class="stream-link" href="https://www.youtube.com/channel/UCw5z_dopYnvEL6Rc8KNKsnw" target="_blank" rel="noopener" aria-label="Watch on YouTube">
+                            <span class="stream-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+                                </svg>
+                            </span>
+                            <span class="stream-link-text">
+                                <span class="stream-link-label">YouTube Music</span>
+                                <span class="stream-link-sub">Stream Now</span>
+                            </span>
+                            <span class="stream-link-arrow">→</span>
+                        </a>
+
+                        <a class="stream-link" href="https://tidal.com/artist/7779063" target="_blank" rel="noopener" aria-label="Listen on Tidal">
+                            <span class="stream-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12.012 3.992L8.008 7.996 4.004 3.992 0 7.996l4.004 4.004 4.004-4.004 4.004 4.004 4.004-4.004L19.996 12l4.004-4.004-4.004-4.004-4.004 4.004-3.98-4.004zM8.008 16.004l-4.004 4.004L8.008 24l4.004-4.004-4.004-3.992z"/>
+                                </svg>
+                            </span>
+                            <span class="stream-link-text">
+                                <span class="stream-link-label">Tidal</span>
+                                <span class="stream-link-sub">Stream Now</span>
+                            </span>
+                            <span class="stream-link-arrow">→</span>
+                        </a>
+
+                        <a class="stream-link" href="https://soundcloud.com/raye" target="_blank" rel="noopener" aria-label="Listen on SoundCloud">
+                            <span class="stream-link-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M1.175 12.225c-.017 0-.034.002-.05.003.002-.017.003-.034.003-.052 0-.95-.77-1.72-1.72-1.72-.26 0-.506.058-.725.163C-.317 9.295.89 8.5 2.286 8.5c.08 0 .16.003.238.01-.001-.045-.004-.09-.004-.136 0-1.847 1.497-3.344 3.344-3.344.96 0 1.826.403 2.447 1.054C8.89 5.144 10.05 4.5 11.36 4.5c2.356 0 4.267 1.91 4.267 4.267 0 .053-.001.105-.004.158.192-.03.39-.046.59-.046 2.045 0 3.702 1.657 3.702 3.702 0 2.044-1.657 3.7-3.702 3.7H1.175c-.648 0-1.175-.527-1.175-1.175 0-.648.527-1.175 1.175-1.175v-.706z"/>
+                                </svg>
+                            </span>
+                            <span class="stream-link-text">
+                                <span class="stream-link-label">SoundCloud</span>
+                                <span class="stream-link-sub">Stream Now</span>
+                            </span>
+                            <span class="stream-link-arrow">→</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-background">
+
+                <div class="contact-header">
+                    <p class="contact-tagline">Get In Touch</p>
+                    <h2 class="contact-heading">Contact</h2>
+                </div>
+
+                <div class="contact-layout">
+
+                    <!-- Form  Styles -->
+                    <div class="contact-form-col">
+                        <form class="contact-form" id="contactForm" novalidate>
+
+                            <!-- First and last name -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label" for="firstName">First Name<span class="form-req">*</span></label>
+                                    <input class="form-input" type="text" id="firstName" name="firstName" autocomplete="given-name">
+                                    <span class="form-error" id="error-firstName" role="alert"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="form-label" for="lastName">Last Name<span class="form-req">*</span></label>
+                                    <input class="form-input" type="text" id="lastName" name="lastName" autocomplete="family-name">
+                                    <span class="form-error" id="error-lastName" role="alert"></span>
+                                </div>
+                            </div>
+
+                            <!-- Contact preference -->
+                            <div class="form-group">
+                                <fieldset class="form-fieldset">
+                                    <legend class="form-label">Preferred Contact Method<span class="form-req">*</span></legend>
+                                    <div class="form-radio-group">
+                                        <label class="form-radio-label">
+                                            <input class="form-radio" type="radio" name="contactPref" value="email">
+                                            <span class="form-radio-custom"></span>
+                                            <span class="form-radio-text">Email</span>
+                                        </label>
+                                        <label class="form-radio-label">
+                                            <input class="form-radio" type="radio" name="contactPref" value="phone">
+                                            <span class="form-radio-custom"></span>
+                                            <span class="form-radio-text">Phone</span>
+                                        </label>
+                                    </div>
+                                    <span class="form-error" id="error-contactPref" role="alert"></span>
+                                </fieldset>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email Address<span class="form-req-conditional" id="email-req"></span></label>
+                                <input class="form-input" type="email" id="email" name="email" autocomplete="email">
+                                <span class="form-error" id="error-email" role="alert"></span>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone Number<span class="form-req-conditional" id="phone-req"></span></label>
+                                <input class="form-input" type="tel" id="phone" name="phone" autocomplete="tel">
+                                <span class="form-error" id="error-phone" role="alert"></span>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label class="form-label" for="comments">Message<span class="form-req">*</span></label>
+                                <textarea class="form-input form-textarea" id="comments" name="comments" rows="5"></textarea>
+                                <span class="form-error" id="error-comments" role="alert"></span>
+                            </div>
+
+                            <!-- Actions -->
+                            <div class="form-actions">
+                                <button class="form-submit" type="submit">Send Message</button>
+                                <p class="form-note"><span class="form-req">*</span> Required fields</p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Confirmation panel -->
+                    <aside class="contact-confirmation-col" id="contactConfirmation" aria-live="polite"></aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Content -->
+    <footer id="footer">
+        <div class="footer-background">
+            <div class="footer-inner">
+
+                <!-- Branding -->
+                <div class="footer-brand">
+                    <p class="footer-title">Raye</p>
+                    <p class="footer-tagline">A Perfect Storm Is Brewing</p>
+                </div>
+
+                <!-- Nav links -->
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="#home">Home</a>
+                    <a href="#story">Story</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#stream">Stream</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <!-- Social links -->
+                <div class="footer-social">
+                    <a href="https://open.spotify.com/artist/5KKpBU5eC2tJDzf0wmlRp2" target="_blank" rel="noopener" aria-label="Spotify">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCw5z_dopYnvEL6Rc8KNKsnw" target="_blank" rel="noopener" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+                    </a>
+                    <a href="https://music.apple.com/us/artist/raye/261686" target="_blank" rel="noopener" aria-label="Apple Music">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 0 0-1.877-.726 10.496 10.496 0 0 0-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026C4.786.07 4.043.15 3.34.428 2.004.958 1.04 1.88.475 3.208A4.86 4.86 0 0 0 .09 4.8c-.05.367-.09.735-.09 1.105C0 6.05 0 6.19 0 6.33v11.34c0 .14 0 .28.003.42.01.734.1 1.46.38 2.163.54 1.324 1.494 2.24 2.83 2.775.618.244 1.264.35 1.926.394.185.013.37.02.556.025.125.004.25.004.375.004H17.93c.14 0 .28 0 .42-.004.735-.01 1.46-.1 2.16-.38 1.325-.54 2.24-1.493 2.776-2.83.244-.617.35-1.263.394-1.924.013-.185.02-.37.025-.555.004-.125.004-.25.004-.375V6.16c0-.013-.001-.024-.003-.036zm-6.549 5.52v5.596a2.41 2.41 0 0 1-.068.56 1.54 1.54 0 0 1-1.24 1.17 2.566 2.566 0 0 1-.504.048c-.84 0-1.548-.588-1.587-1.395-.044-.906.558-1.56 1.437-1.68.318-.044.648-.064.98-.1V9.62l-4.897 1.07v6.31a2.6 2.6 0 0 1-.067.56 1.54 1.54 0 0 1-1.252 1.167 2.52 2.52 0 0 1-.5.048c-.842 0-1.55-.585-1.59-1.39-.044-.903.556-1.56 1.435-1.678.317-.044.648-.064.977-.1V8.24c0-.307.19-.578.482-.65l5.65-1.236c.39-.086.74.217.74.617v4.673z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="footer-bottom">
+                <p class="footer-copy">© 2026 Raye. All rights reserved.</p>
+                <p class="footer-credit">Site designed by Amira Shiha</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
